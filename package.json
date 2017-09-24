@@ -1,6 +1,6 @@
 {
   "name": "i-replace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convenient case insensitive string replace.",
   "main": "src/index.js",
   "scripts": {
