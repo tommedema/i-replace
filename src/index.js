@@ -7,7 +7,7 @@
  * [Regexp replacement strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) can be used here.
  * @param {boolean} [multi=false] Whether to enable multiple replacemement. Default is to only
  * replace the first occurence.
- * 
+ *
  * @example
  * const iReplace = require('i-replace')
  * const haystack = '<HEAD></HEAD>'
