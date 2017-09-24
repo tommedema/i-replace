@@ -1,0 +1,26 @@
+{
+  "name": "i-replace",
+  "version": "1.0.0",
+  "description": "Convenient case insensitive string replace.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/standard/bin/cmd.js && ./node_modules/mocha/bin/mocha",
+    "standard": "./node_modules/standard/bin/cmd.js",
+    "standard fix": "./node_modules/standard/bin/cmd.js --fix",
+    "docs": "./node_modules/documentation/bin/documentation.js lint src/** && ./node_modules/documentation/bin/documentation.js build src/** -f md > README.md"
+  },
+  "keywords": [
+    "replace",
+    "case",
+    "insensitive",
+    "string"
+  ],
+  "author": "Tom Medema",
+  "license": "MIT",
+  "devDependencies": {
+    "documentation": "^5.3.2",
+    "mocha": "^3.5.3",
+    "should": "^13.1.0",
+    "standard": "^10.0.3"
+  }
+}
