@@ -13,7 +13,7 @@
     "test": "./node_modules/standard/bin/cmd.js && ./node_modules/mocha/bin/mocha",
     "standard": "./node_modules/standard/bin/cmd.js",
     "standard fix": "./node_modules/standard/bin/cmd.js --fix",
-    "docs": "./node_modules/documentation/bin/documentation.js lint src/** && ./node_modules/documentation/bin/documentation.js build src/** -f md > README.md"
+    "docs": "./node_modules/documentation/bin/documentation.js lint src/** && ./node_modules/documentation/bin/documentation.js build src/** -f md >> README.md"
   },
   "keywords": [
     "replace",
